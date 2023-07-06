@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Question</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+  <h2>Add Question</h2>
+  <form method="POST" action="add_question.php">
+    <label for="question">Question:</label><br>
+    <textarea id="question" name="question" rows="4" cols="50"></textarea><br>
+
+    <label for="option1">Option 1:</label>
+    <input type="text" id="option1" name="option1"><br>
+
+    <label for="option2">Option 2:</label>
+    <input type="text" id="option2" name="option2"><br>
+
+    <label for="option3">Option 3:</label>
+    <input type="text" id="option3" name="option3"><br>
+
+    <label for="option4">Option 4:</label>
+    <input type="text" id="option4" name="option4"><br>
+
+    <label for="correct_option">Correct option:</label>
+    <input type="text" id="correct_option" name="correct_option"><br>
+
+    <input type="submit" value="Add Question">
+  </form>
+</body>
+</html>

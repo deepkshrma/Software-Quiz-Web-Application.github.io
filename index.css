@@ -1,0 +1,100 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4ca8e0;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 55px;
+    height: 40px;
+}
+
+.logo h1 {
+    display: inline-flex;
+    font-size: 40px
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #3092c4;
+    border-radius: 5px;
+}
+
+
+.hero-section {
+  
+  background-color: skyblue;
+  padding: 15%;
+  text-align: center;
+}
+
+.hero-section h1 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-section button {
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  width: 97.4%;
+  background-color: #4ca8e0;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
